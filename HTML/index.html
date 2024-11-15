@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locos por el Futbol</title>
+    <link rel="stylesheet" href="CSS/style.css"> 
+</head>
+<body>
+
+    <header>
+        <h1>Locos Por El Futbol</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#acerca">Acerca de</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Esta es la sección de inicio. Encontra esa casaca que necesitas!</p>
+        </section>
+
+        <section id="acerca">
+            <h2>Acerca de</h2>
+            <p>En "Locos por el Futbol" te traemos toda la variedad en camisetas de tus equipos favoritos. Consegui la tuya ya!</p>
+            <p>Notas que falta algun equipo o camiseta? Dejanos un mensaje en el apartado de contacto!</p>
+        </section>
+
+        <section id="productos">
+            <div class="producto-card">
+                <img src="img/camisetaMessi.jpg" alt="Camiseta 1">
+                <h3>Camiseta Barcelona</h3>
+                <p>¡La del 10! Llevate esta camiseta con pura mistica para tu dia a dia</p>
+                <p>$50.000</p>
+                <button class="boton">Agregar al carrito</button>
+            </div>
+
+            <div class="producto-card">
+                <img src="img/camisetaRealMadrid.jpg" alt="Camiseta 2">
+                <h3>Camiseta Real Madrid</h3>
+                <p>Elegancia y clase. ¡Esta edicion de la casablanca puede ser tuya!</p>
+                <p>$55.000</p>
+                <button class="boton">Agregar al carrito</button>
+            </div>
+
+            <div class="producto-card">
+                <img src="img/camisetaGimnasia2.jpg" alt="Camiseta 3">
+                <h3>Camiseta Gimnasia</h3>
+                <p>¡El lobo de La Plata! Que no falte en tu coleccion</p>
+                <p>$15.000</p>
+                <button class="boton">Agregar al carrito</button>
+            </div>
+
+            <div class="producto-card">
+                <img src="img/camisetaEstudiantes3.jpg" alt="Camiseta 4">
+                <h3>Camiseta Estudiantes</h3>
+                <p>¡El Pincha! La nueva edicion de la teomprada 2024 ya esta disponible</p>
+                <p>$15.000</p>
+                <button class="boton">Agregar al carrito</button>
+            </div>
+            <!-- Agregar más productos aquí -->
+        </section>
+        
+        <!-- Sección de reseñas -->
+        <section id="reseñas">
+            <div class="reseña">
+                <h4>Joaquin Grasso</h4>
+                <p>"Excelente tienda, las camisetas son de muy buena calidad y me llegaron rápido."</p>
+            </div>
+            <div class="reseña">
+                <h4>Pilar Bernardelli</h4>
+                <p>"Gran variedad y precios accesibles. ¡Recomiendo totalmente!"</p>
+            </div>
+            <div class="reseña">
+                <h4>Fran Baglietto</h4>
+                <p>"Muy bueno tanto precio como calidad!"</p>
+            </div>
+            <!-- Agregar más reseñas aquí -->
+        </section>
+
+        <!-- Formulario de contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <h3>Envianos tu opinion!</h3>
+            <form action=https://formspree.io/f/xqakaqbz method="POST">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Locos por el Futbol. Todos los derechos reservados.</p>
+        <p>Juan Molinari - Comision 24225 - TALENTO TECH</p>
+    </footer>
+
+</body>
+</html>

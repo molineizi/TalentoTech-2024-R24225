@@ -1,0 +1,12 @@
+# Mi Página Web
+
+Esta página web fue creada como parte de una práctica de HTML.
+
+## Estructura
+
+- **Header**: Contiene el título principal de la página.
+- **Nav**: Incluye un menú de navegación con enlaces internos.
+- **Main**: Se compone de varias secciones como Inicio y Acerca de.
+- **Footer**: Pie de página con información de copyright.
+
+## Formulario
