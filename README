@@ -1,12 +1,16 @@
-# Mi Página Web
+Este es un proyecto pre-integrador desarrollado como práctica para Talento Tech. La página fue construida únicamente con HTML y CSS e incluye diversas secciones que muestran la implementación de diferentes técnicas de diseño y adaptabilidad.
 
-Esta página web fue creada como parte de una práctica de HTML.
+Características del Proyecto:
+Contiene la estructura principal de la página y comenta a que va a ser destinada la pagina
 
-## Estructura
+SECCION PRODUCTOS:
+Diseñada usando Flexbox para organizar los elementos de manera responsiva y optimizada en diferentes dispositivos.
+Sección de Contacto
 
-- **Header**: Contiene el título principal de la página.
-- **Nav**: Incluye un menú de navegación con enlaces internos.
-- **Main**: Se compone de varias secciones como Inicio y Acerca de.
-- **Footer**: Pie de página con información de copyright.
+Incluye un formulario de contacto funcional, implementado a través de Formspree para el envío de mensajes de usuarios sin necesidad de backend.
+Adaptabilidad
 
-## Formulario
+Se aplicaron media queries para asegurar que el diseño se adapte a diferentes tamaños de pantalla
+
+SECCION RESEÑAS:
+Una sección inventada que presenta comentarios de clientes ficticios. Esta sección fue diseñada utilizando CSS Grid.
