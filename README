@@ -1,16 +1,19 @@
-Este es un proyecto pre-integrador desarrollado como práctica para Talento Tech. La página fue construida únicamente con HTML y CSS e incluye diversas secciones que muestran la implementación de diferentes técnicas de diseño y adaptabilidad.
+Este es un proyecto integrador desarrollado como práctica para Talento Tech. La página fue construida únicamente con HTML, JS y CSS e incluye diversas secciones que muestran la implementación de diferentes técnicas de diseño y adaptabilidad.
 
 Características del Proyecto:
 Contiene la estructura principal de la página y comenta a que va a ser destinada la pagina
+Incluí el conocido comercial de Nike para darle algo mas de tematica a la pagina, dedicada al futbol.
 
 SECCION PRODUCTOS:
 Diseñada usando Flexbox para organizar los elementos de manera responsiva y optimizada en diferentes dispositivos.
-Sección de Contacto
 
+SECCION FORMULARIO:
 Incluye un formulario de contacto funcional, implementado a través de Formspree para el envío de mensajes de usuarios sin necesidad de backend.
-Adaptabilidad
-
-Se aplicaron media queries para asegurar que el diseño se adapte a diferentes tamaños de pantalla
 
 SECCION RESEÑAS:
 Una sección inventada que presenta comentarios de clientes ficticios. Esta sección fue diseñada utilizando CSS Grid.
+
+Se aplicaron media queries para asegurar que el diseño se adapte a diferentes tamaños de pantalla
+
+JAVASCRIPT:
+Incluye varias funciones con el objetivo de que el usuario adapte su carrito de compras como le parezca, con funciones como agregar un producto, editarlo, eliminarlo, etc. 
